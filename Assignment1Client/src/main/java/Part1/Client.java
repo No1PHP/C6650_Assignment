@@ -47,7 +47,7 @@ public class Client {
     ExecutorService threadPool = Executors.newFixedThreadPool(THREAD_NUM);
     int neededThreadNum = (int) Math.ceil(1.0*SKIER_NUM / MAX_THREAD_REQUEST_NUM);
     RecordWriter writer = new RecordWriter(recordArrayBlockingQueue,
-        "PerformanceRecord/records.csv", SKIER_NUM);
+        "Assignment1Client/PerformanceRecord/records.csv", SKIER_NUM);
 
     Thread writerThread = new Thread(writer);
     //
@@ -82,7 +82,7 @@ public class Client {
     threadPool = Executors.newFixedThreadPool(THREAD_NUM);
     neededThreadNum = (int) Math.ceil(1.0*SKIER_NUM / MAX_THREAD_REQUEST_NUM);
     writer = new RecordWriter(recordArrayBlockingQueue,
-        "PerformanceRecord/records.csv", SKIER_NUM);
+        "Assignment1Client/PerformanceRecord/records.csv", SKIER_NUM);
 
     writerThread = new Thread(writer);
     start = System.currentTimeMillis();
