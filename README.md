@@ -11,7 +11,7 @@ is the record class the post requests sent by skierthread, which includes start,
 ### RecordWriter.java
 is a runnable class that can run simultaneously with skierthread in the main thread, acting as a consumer of the records produced by SkierThreads. write the records to the csv file. 
 
-# Little's Law estimation
+## Little's Law estimation
 - Little’s law: N = Throughput * (average) ResponseTime 
 - By default, the tomcat server was set to have maximum of 200 threads. 
 - From the previous lab, sending multithreading 1000 requests to EC2 server took 19064ms to finish, the throughput was 1000/19.064 = 52.46/s
