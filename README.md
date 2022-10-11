@@ -10,9 +10,6 @@ is a runnable thread to be executed by Client. Generates random Skier data and s
 is the record class the post requests sent by skierthread, which includes start, end time, delay, request method and response code.
 ### RecordWriter.java
 is a runnable class that can run simultaneously with skierthread in the main thread, acting as a consumer of the records produced by SkierThreads. write the records to the csv file. 
-- 支持自定义样式的 Markdown 编辑器
-- 支持微信公众号、知乎和稀土掘金
-- 点击右上方对应图标，一键复制到各平台
 
 # Little's Law estimation
 - Little’s law: N = Throughput * (average) ResponseTime 
