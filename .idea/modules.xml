@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignment1Client/Assignment1Client.iml" filepath="$PROJECT_DIR$/Assignment1Client/Assignment1Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment1_6650/Assignment1_6650.iml" filepath="$PROJECT_DIR$/Assignment1_6650/Assignment1_6650.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment1_6650_Zhining.iml" filepath="$PROJECT_DIR$/Assignment1_6650_Zhining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringServer/SpringServer.iml" filepath="$PROJECT_DIR$/SpringServer/SpringServer.iml" />
+    </modules>
+  </component>
+</project>
