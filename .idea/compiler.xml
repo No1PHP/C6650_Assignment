@@ -8,14 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Assignment1_6650" />
+        <module name="Assignment2Server" />
         <module name="SpringServer" />
         <module name="Assignment1Client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Assignment1_6650" target="11" />
-      <module name="Assignment1Client" target="11" />
-      <module name="SpringServer" target="11" />
+      <module name="Consumer" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

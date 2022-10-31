@@ -19,11 +19,12 @@ import java.util.concurrent.ThreadLocalRandom;
 public class SkierThread implements Runnable{
 
   private static final int RETRY_TIMES = 5;
-  private static final String SERVLET_PATH = "http://54.190.15.184:8080/Assignment1_6650_war";
+  private static final String SERVLET_PATH = "http://a1a2-lb-1735273656.us-west-2.elb.amazonaws.com:8080/A2_Server_war";
 
-  private static final String LOCAL_PATH = "http://localhost:8080/Assignment1_6650_war_exploded";
+  // private static final String LOCAL_PATH = "http://localhost:8080/Assignment1_6650_war_exploded";
+  private static final String LOCAL_PATH = "http://localhost:8080/A2_Server_war_exploded";
 
-  private static final String SPRING_APP_PATH = "http://54.190.15.184:8080/SpringServer";
+  private static final String SPRING_APP_PATH = "http://54.186.103.193:8080/A2_Server_war";
   private int resortID;
   private String seasonID;
   private String dayID;
